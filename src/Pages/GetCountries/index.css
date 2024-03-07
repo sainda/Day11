@@ -1,0 +1,44 @@
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 1rem 8rem;
+}
+.countries .countryContainer{
+    width: 20rem;
+    box-shadow: 1px 1px 1px rgb(241, 240, 240);
+    border-radius: 5px;
+    text-align: left;
+    background-color: white;
+}
+.countries .countryContainer .flagImg{
+    width: 20rem;
+    height: 11rem;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 234, 234);
+}
+.countries .countryContainer .name{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.countries .countryContainer .informationContainer{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.countries .countryContainer .informationContainer .title{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.countries .countryContainer .informationContainer .information{
+    font-size: 1.1rem;
+}
+
+
